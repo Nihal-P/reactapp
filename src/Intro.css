@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
+#intro {
+    font-family: 'NTR', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-top: 5%;
+    min-height: 100vh;
+    
+}
+
+.nameLine {
+    color: #8892B0;
+    font-family: 'NTR', sans-serif;
+    font-size: 86px;
+    
+    
+}
+.name {
+    color: #64ffda;
+}
+
+.stuff {
+    color: #8892B0;
+    font-size: 55px;
+    font-weight: 300;
+    margin-top: -9rem; 
+    height: 82px;
+}
+.intropar {
+    color:#8892B0;
+    text-align: left;
+    max-width: 55%;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top:-2rem;
+}
+
+.strikedout {font-size: 10px;}
+
+.emailink {
+    color: #64ffda;
+    text-decoration: none;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    font-size: 22px;
+}
