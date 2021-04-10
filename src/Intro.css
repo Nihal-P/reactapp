@@ -48,3 +48,8 @@
     padding: 10px 20px 10px 20px;
     font-size: 22px;
 }
+
+.emailink:hover {
+    background-color: #233554;
+    transition: 0.3s;
+}
