@@ -41,15 +41,33 @@
 .strikedout {font-size: 10px;}
 
 .emailink {
-    color: #64ffda;
-    text-decoration: none;
     border: 1px solid #64ffda;
+    margin-top: 5%;
     border-radius: 4px;
-    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 150px;
+    /* color: #64ffda;
+    text-decoration: none;
+    
+    
+    padding: 20px 20px 10px 20px;
     font-size: 22px;
+    font-weight: 700;
+    
+    line-height: 33px; */
+
 }
+
 
 .emailink:hover {
     background-color: #233554;
     transition: 0.3s;
+}
+
+.contact-text {
+    font-size: 22px;
+    font-weight: 500;
 }
