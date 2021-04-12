@@ -1,4 +1,5 @@
 import './Intro.css';
+import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
 const Intro = () => {
     return ( 
         <div id="intro">
@@ -8,9 +9,9 @@ const Intro = () => {
             I have profound interest in Computer Science with music on the side. 
             Over the period of time I have developed niche skills of using google and stack-overflow which helped me <span className="strikedout">survive</span> grow.
             </p>
-            <a href="/" className="emailink">Say hello</a>
+            <a href="/" className="emailink"><EmailRoundedIcon style={{fontSize:25}}></EmailRoundedIcon><span className="contact-text">&#8205; Say hello</span></a>
         </div>
      );
 }
- 
+
 export default Intro;
