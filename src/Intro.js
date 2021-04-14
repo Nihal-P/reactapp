@@ -1,9 +1,14 @@
 import './Intro.css';
 import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
+import Typist from 'react-typist';
+
 const Intro = () => {
     return ( 
         <div id="intro">
+            <Typist avgTypingDelay={120} cursor={{ show: false,hideWhenDone: true }}>
             <h2 className="nameLine">Hi, <span className="name">Nihal Patel</span> here.</h2>
+            </Typist>
+           
             <h4 className="stuff">I create stuff sometimes.</h4>
             <p className="intropar">I am a first year student at Wilfrid Laurier University. 
             I have profound interest in Computer Science with music on the side. 
