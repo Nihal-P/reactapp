@@ -11,12 +11,51 @@
     
 }
 
+.Typist {
+    color: #a8b2d1;
+    text-align: center;
+    font-size: 96px;
+    /* margin-top: 60px; */
+    height: auto;
+    width: auto;
+    padding: 0;
+    border-radius: 0;
+  }
+  .Typist .Cursor--blinking {
+    color: #64ffda;;
+    padding-left: 4px;
+    line-height: 114px;
+  }
+  .Cursor--blinking {
+      height: 114px;
+      width: 20px;
+  }
+
+  .Typist .Cursor {
+    display: inline-block; }
+    .Typist .Cursor--blinking {
+      opacity: 1;
+      animation: blink 1s linear infinite; }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1; }
+    50% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  
+
+
 .nameLine {
     color: #8892B0;
     font-family: 'NTR', sans-serif;
     font-size: 86px;
-    
-    
+    line-height: 129px;
+    height: auto;
+    width: auto;
+    display: inline; /*this stupid line makes the cursor on the same line*/
+    padding: 0;
 }
 .name {
     color: #64ffda;
@@ -26,8 +65,11 @@
     color: #8892B0;
     font-size: 55px;
     font-weight: 300;
-    margin-top: -9rem; 
     height: 82px;
+    text-align: left;
+    width: 1224px;
+    padding: 0;
+    margin-top: -60px;
 }
 .intropar {
     color:#8892B0;
@@ -35,7 +77,7 @@
     max-width: 55%;
     font-size: 22px;
     line-height: 30px;
-    margin-top:-2rem;
+    margin-top:-16px;
 }
 
 .strikedout {font-size: 10px;}
