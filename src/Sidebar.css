@@ -11,11 +11,30 @@
     background-color: transparent;
 }
 
-a {
+.sidelinks {
     color: #64ffda;
     text-decoration: none;
     font-family: 'NTR', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 25px;
+}
+
+.sidebarlogos {
+    padding: 42px 0 8px 0;
+}
+.sidebarlogos a {
+    font-size: 10px;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    padding: 4px;
+    color: #64ffda;
+   
+}
+
+a:hover {
+    color: #ccd6f6!important;
+    transition: 0.3s;
 }
