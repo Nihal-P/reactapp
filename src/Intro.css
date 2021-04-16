@@ -91,6 +91,7 @@
     align-items: center;
     height: 70px;
     width: 150px;
+    text-decoration: none;
     /* color: #64ffda;
     text-decoration: none;
     
@@ -103,6 +104,10 @@
 
 }
 
+.EmailRoundedIcon {
+  color: #64ffda;
+}
+
 
 .emailink:hover {
     background-color: #233554;
@@ -110,6 +115,8 @@
 }
 
 .contact-text {
+    color: #64ffda;
+    text-decoration: none;
     font-size: 22px;
     font-weight: 500;
 }
