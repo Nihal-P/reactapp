@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
+
+#about {
+    padding-left: 15%;
+    margin-top: -5px;
+    padding-right: 25%; 
+  }
+
+.aboutTitle {
+    font-family: 'NTR', sans-serif;
+    font-size: 46px;
+    text-align: left;
+    color: #ccd6f6;
+    font-weight: 700;
+    display: block; 
+    line-height: 69px;
+}
+
+.divideLine {
+    height: 1px;
+    width: 300px;
+    background-color: #233554;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 39px;
+    line-height: px;
+}
+
+.abtdsc {
+    max-width: 700px;
+}
+
