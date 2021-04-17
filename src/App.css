@@ -1,4 +1,28 @@
-.App {
+#content {
+  /* padding: 80px 200px; */
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.sectionHeader {
+  padding-bottom: 42px;
+}
+.sectiontitle {
+  font-family: "NTR", sans-serif;
+  color: var(--lightest-slate);
+  font-size: 46px;
+  font-weight: bold;
+  color: #ccd6f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +59,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
