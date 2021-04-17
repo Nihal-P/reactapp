@@ -1,19 +1,22 @@
 import './About.css'
-
+import aboutme from "./aboutme.jpg";
 
 const About = () => {
+
     return ( 
         <div id="about">
             <div className="sectionHeader">
-                <span className="aboutTitle">/ about me<div className="divideLine"></div></span>
+                <span className="sectiontitle">/ about me<div className="divideLine"></div></span>
             </div>
-            <div className="abtdsc">
-                <p>lipsom Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ea necessitatibus neque numquam eaque distinctio quasi animi quidem sapiente eos voluptate, dignissimos aperiam qui aliquid doloribus temporibus! Saepe, illo accusamus.</p>
-                <p>lissom Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nisi distinctio vero voluptates, consequuntur ipsa quo corporis, illo inventore reprehenderit blanditiis aperiam, labore consequatur harum quasi autem ducimus quibusdam! Doloribus.</p>
-                <p>Here are some technologies I have been working with:</p>
-            </div>
-            <div className="abtimg">
-                <img src="/"></img>
+            <div className="abtContent">
+                <div className="abtdsc">
+                    <p>I am currently studying Computer Science at Wilfrid Laurier University. I am also currently on a one year internship at Wattpad as an Associate Web Engineer.</p>
+                    <p>I'm into machine learning, human-computer interactions and frontend development. I also like my fair share of visual arts and creativity. In my free time, I eat guava fruit and play video games.</p>
+                    <p>Here are some technologies I have been working with:</p>
+                </div>
+                <div className="abtimg">
+                    <img src={aboutme} className="me"></img>
+                </div>
             </div>
         </div>
      );

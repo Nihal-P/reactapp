@@ -3,19 +3,11 @@
 
 #about {
     padding-left: 15%;
-    margin-top: -5px;
+    margin-top: -2%;
     padding-right: 25%; 
   }
 
-.aboutTitle {
-    font-family: 'NTR', sans-serif;
-    font-size: 46px;
-    text-align: left;
-    color: #ccd6f6;
-    font-weight: 700;
-    display: block; 
-    line-height: 69px;
-}
+
 
 .divideLine {
     height: 1px;
@@ -26,8 +18,34 @@
     margin-top: 39px;
     line-height: px;
 }
+.abtContent {
+    display: flex;
+    flex-direction: row;
+}
 
 .abtdsc {
+    font-family: "NTR", sans-serif;
+    color: #8892b0;
+    font-size: 20px;
     max-width: 700px;
+    margin:0;
+    line-height: 30px;
+    min-width: 300px;
+    display: block;
+}
+
+.abtimg {
+    padding-left: 40px;
+    width: 340px;
+}
+
+
+.me {
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
+    border: 2px solid #64ffda;
+    border-radius: 10px;
+    
 }
 
