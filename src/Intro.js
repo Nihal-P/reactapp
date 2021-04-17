@@ -5,6 +5,7 @@ import Typist from 'react-typist';
 const Intro = () => {
     return ( 
         <div id="intro">
+            <div className="canvas"></div>
             <Typist avgTypingDelay={120} >
             <h2 className="nameLine">Hi, <span className="name">Nihal Patel</span> here.</h2>
             </Typist>
