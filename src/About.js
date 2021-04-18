@@ -10,12 +10,20 @@ const About = () => {
             </div>
             <div className="abtContent">
                 <div className="abtdsc">
-                    <p>I am currently studying Computer Science at Wilfrid Laurier University. I am also currently on a one year internship at Wattpad as an Associate Web Engineer.</p>
-                    <p>I'm into machine learning, human-computer interactions and frontend development. I also like my fair share of visual arts and creativity. In my free time, I eat guava fruit and play video games.</p>
+                    <p>I am currently studying Computer Science at Wilfrid Laurier University. lipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit.doloribus cupiditate cumque dolore inventore.</p>
+                    <p>I'm into machine learning, human-computer interactions and frontend development. I also like my fair share of visual arts and creativity. In my free time, I listen to music and play video games.</p>
                     <p>Here are some technologies I have been working with:</p>
+                    <ul className="known-tech">
+                        <li>Javascript ES6+</li>
+                        <li>Python</li>
+                        <li>React.js</li>
+                        <li>Java</li>
+                        <li>Node.js</li>
+                        <li>HTML & CSS</li>
+                    </ul>
                 </div>
                 <div className="abtimg">
-                    <img src={aboutme} className="me"></img>
+                    <img src={aboutme} className="me" alt="clothes on chair"></img>
                 </div>
             </div>
         </div>
