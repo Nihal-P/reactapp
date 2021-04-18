@@ -1,0 +1,9 @@
+#sidelogo {
+    height: 80px;
+    width:70px;
+    position: fixed;
+    z-index: 3;
+    padding-top: 60px;
+    padding-left: 60px;
+    
+}
