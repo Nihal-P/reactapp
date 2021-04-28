@@ -17,6 +17,16 @@
   color: #ccd6f6;
 }
 
+.divideLine {
+  height: 1px;
+  width: 300px;
+  background-color: #233554;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 39px;
+  line-height: px;
+}
+
 html {
   scroll-behavior: smooth;
 }
