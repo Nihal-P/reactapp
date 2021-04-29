@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
+#projects {
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-right: 25%;
+}
+
+.projGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 10px;
+  }
+
+.projCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    background-color: #112240;
+    padding:0 1.75rem;
+    border-radius: 16px;
+    
+}
+
+.projHead {
+    
+    display: flex;
+    padding: 1.25em 0 !important;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: none !important;
+}
+
+
+
+.cardTitle {
+    color: #CCD6F6;
+    font-family: "NTR", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cardDesc {
+    color: #8892b0;
+    font-family: "NTR", sans-serif;
+    padding-top:30px;
+    font-size: 18px;
+    padding-bottom: 70px;
+    line-height: 24px;
+}
+
+.cardTech {
+    color: #8892b0;
+    font-family: "NTR", sans-serif;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+.external-links {
+    padding-top: 10px;
+    vertical-align: middle !important;
+}
+
+/* .github-icon {
+
+} */
+
+
+.open-icon {
+    padding: 0;
+    
+    margin-left: 10px;
+}
+
+
+
+  
