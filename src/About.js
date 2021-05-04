@@ -1,10 +1,12 @@
 import './About.css'
 import aboutme from "./aboutme.jpg";
+import FadeInSection from "./FadeInSection"
 
 const About = () => {
 
     return ( 
         <div id="about">
+            <FadeInSection>
             <div className="sectionHeader">
                 <span className="sectiontitle">/ about me<div className="divideLine"></div></span>
             </div>
@@ -26,6 +28,7 @@ const About = () => {
                     <img src={aboutme} className="me" alt="clothes on chair"></img>
                 </div>
             </div>
+            </FadeInSection>
         </div>
      );
 }

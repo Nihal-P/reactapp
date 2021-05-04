@@ -1,7 +1,7 @@
 import React from "react";
 import Jobs from "./Jobs";
 import "./Experience.css"
-
+import FadeInSection from "./FadeInSection"
 
 class Experience extends React.Component {
   constructor() {
@@ -20,12 +20,13 @@ class Experience extends React.Component {
   render() {
     return (
       <div id="experience">
-        
+        <FadeInSection>
         <div className="sectionHeader">
-                <span className="sectiontitle">/ experience<div className="divideLine"></div></span>
+            <span className="sectiontitle">/ experience<div className="divideLine"></div></span>
         </div>
         <Jobs></Jobs>
         <div className="spacemaker"></div>
+        </FadeInSection>
       </div>
     );
   }

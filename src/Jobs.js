@@ -5,6 +5,7 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+import FadeInSection from "./FadeInSection"
 
 const isHorizontal = window.innerWidth < 600;
 
@@ -145,9 +146,9 @@ const Jobs = () => {
           <ul className="job-description">
             {experienceItems[key]["desc"].map(function(descItem, i) {
               return (
-                
+              <FadeInSection delay={`${i + 1}00ms`}>
                 <li key={i}>{descItem}</li>
-                
+                </FadeInSection>
               );
             })}
           </ul>
