@@ -7,3 +7,10 @@
     padding-left: 4%;
     
 }
+
+@media screen and (max-width: 600px) {
+
+    #sidelogo {
+        display: none;
+    }
+}

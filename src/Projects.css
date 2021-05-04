@@ -24,6 +24,11 @@
     
 }
 
+.projCard:hover {
+    background-color: #233554;
+    transform: translateY(-7px);
+}
+
 .projHead {
     
     display: flex;
@@ -60,6 +65,7 @@
 .external-links {
     padding-top: 10px;
     vertical-align: middle !important;
+
 }
 
 /* .github-icon {
@@ -74,5 +80,21 @@
 }
 
 
-
+@media (max-width: 1080px) {
+    .projGrid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
   
+@media only screen and (max-width: 600px) {
+    #projects {
+        height: unset;
+        padding-left: unset;
+        padding-right: unset;
+        padding-top: 20%;
+    }
+    .projGrid {
+        align-self: center;
+        margin-right: 20px;
+    }
+}

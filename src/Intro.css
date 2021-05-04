@@ -10,8 +10,8 @@
     min-height: 100vh;
     
 }
-
-.canvas{
+  
+.canvas{ /* Not an appropriate use of canvas however cant find a proper way*/
   color: green;
   width: 200!important;
   height: 180px;
@@ -22,10 +22,10 @@
     text-align: center;
     font-size: 96px;
     margin-top: -30px;
-    height: auto;
+    /* height: auto;
     width: auto;
     padding: 0;
-    border-radius: 0;
+    border-radius: 0; */
   }
   .Typist .Cursor--blinking {
     color: #64ffda;
@@ -54,7 +54,7 @@
 
 
 .nameLine {
-    color: #8892B0;
+    color: #ccd6f6;
     font-family: 'NTR', sans-serif;
     font-size: 86px;
     line-height: 129px;
@@ -79,7 +79,7 @@
 }
 .intropar {
     color:#8892B0;
-    text-align: left;
+    /* text-align: left; */
     max-width: 55%;
     font-size: 22px;
     line-height: 30px;
@@ -99,16 +99,6 @@
     height: 70px;
     width: 150px;
     text-decoration: none;
-    
-    /* color: #64ffda;
-    text-decoration: none;
-    
-    
-    padding: 20px 20px 10px 20px;
-    font-size: 22px;
-    font-weight: 700;
-    
-    line-height: 33px; */
 
 }
 
@@ -127,4 +117,68 @@
     text-decoration: none;
     font-size: 22px;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .canvas {
+    display: none;
+  }
+
+  #intro {
+    min-height: unset;
+    padding-left: unset;
+    margin: 0;
+    align-items: center;
+  }
+
+  .nameLine {
+    font-size: 40px;
+    display: inline;
+  }
+
+  .Typist {
+    
+    font-size: 42px;
+  }
+
+  .stuff {
+    text-align: center;
+    font-size: 28px;
+    margin-top: -30px;
+    margin-left: -20px;
+    max-width: unset;
+  }
+
+  .intropar {
+    font-size: 18px;
+    text-align: center;
+    max-width: unset;
+    padding-bottom: 50px;
+    
+    margin-right: 20px;
+    
+    /* max-width: unset; */
+    /* text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px; */
+    
+    
+    /* max-width: unset; */
+    /* padding-left: 100px;
+    display: unset;
+    max-width: unset !important; 
+    padding-bottom: 40px;   */
+
+    
+  }
+
+  .emailink {
+    align-self: center;
+    margin-left: -20px;
+    font-size: 16px;
+    height: 50px;
+    width: 130px;
+  }
+
 }
