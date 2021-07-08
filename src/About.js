@@ -1,6 +1,6 @@
 import './About.css'
 import aboutme from "./aboutme.jpg";
-import FadeInSection from "./FadeInSection"
+import FadeInSection from "./FadeInSection";
 
 const About = () => {
 
